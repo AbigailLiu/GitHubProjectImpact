@@ -4,7 +4,8 @@ This is a project which tries to understand what are indicators of GitHub Projec
 To understand what are indicators of project impact, we conducted a google survey to among GitHub project users. The survey can be found at https://goo.gl/forms/3UClqoxqhrhA21Vd2. You are welcome to provide us your opinions on impact indicating factors. 
 
 
-To Contribute: 
+To Contribute, following these steps: 
+
 step 1: Set up a working copy on your computer
     1.1 Go to our project (https://github.com/ShuangLiuTJU/GitHubProjectImpact), click the Fork button on the right top corner. This will create a copy of the repository in your own GitHub account and you'll see a note saying "forked from ShuangLiuTJU/GitHubProjectImpact" beneath your copy.
     1.2 Now open your Git terminal and clone a local copy with the clone command "git clone https://github.com/ShuangLiuTJU/GitHubProjectImpact.git". Note that you need to be consisitent and use either HTTPs or SSH format, but not both. Failing to do so may cause you some permission deny problems, which you may find the following blog useful: https://segmentfault.com/q/1010000003061640
