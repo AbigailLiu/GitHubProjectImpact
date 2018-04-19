@@ -3,10 +3,10 @@ import mysql.connector
 import pprint
 import sys
 
-#bang mang 
+ 
 db = mysql.connector.connect(
     host='localhost', database='github',
-    user='root', password='212613',
+    user='root', password='',
     use_unicode=True, charset="utf8"
 )
 
