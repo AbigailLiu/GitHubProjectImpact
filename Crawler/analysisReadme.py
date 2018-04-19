@@ -15,7 +15,7 @@ cur1.execute(query1)
 data1 = cur1.fetchone()
 print(data1[0])
 cur = db.cursor(buffered=True)
-query = "select * from addrepo WHERE repo_id>'%s' order by repo_id"% data1[0]
+query = "select * from repositories_data WHERE repo_id>'%s' order by repo_id"% data1[0]
 cur.execute(query)
 result_set = cur.fetchall()
 for data in result_set:
