@@ -4,7 +4,7 @@ import os
 import mysql.connector
 
 db = mysql.connector.connect(
-    host='localhost', database='github100',
+    host='localhost', database='github',
     user='root', password=''
 )
 #70121855

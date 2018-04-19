@@ -15,8 +15,8 @@ GITHUB_URL = 'https://api.github.com'
 GITHUB_API = GITHUB_URL + '/repos/%(owner)s/%(repo)s/%(action)s'
 
 db = mysql.connector.connect(
-    host='45.77.104.160', database='githubnew2',
-    user='root', password='212613',
+    host='localhost', database='github',
+    user='root', password='',
     use_unicode=True, charset="utf8"
 )
 

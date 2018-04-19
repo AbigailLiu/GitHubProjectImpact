@@ -5,7 +5,7 @@ import sys
 
 #bang mang 
 db = mysql.connector.connect(
-    host='45.77.104.160', database='github03',
+    host='localhost', database='github',
     user='root', password='212613',
     use_unicode=True, charset="utf8"
 )

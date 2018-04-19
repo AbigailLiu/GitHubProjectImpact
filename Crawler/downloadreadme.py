@@ -1,8 +1,4 @@
-import socket
-import traceback
-import urllib2
 
-import time
 
 __author__ = 'mjm'
 import json, requests
@@ -12,7 +8,10 @@ import sys
 import urllib
 import os
 import re
-import zipfile
+import socket
+import traceback
+import urllib2
+import time
 
 GITHUB_URL = "https://www.github.com"
 GITHUB_API = GITHUB_URL +'/%(owner)s/%(repo)s/master/'
