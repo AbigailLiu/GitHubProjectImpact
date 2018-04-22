@@ -7,9 +7,13 @@ To understand what are indicators of project impact, we conducted a google surve
 To Contribute, following these steps: 
 
 step 1: Set up a working copy on your computer
-    1.1 Go to our project (https://github.com/ShuangLiuTJU/GitHubProjectImpact), click the Fork button on the right top corner. This will create a copy of the repository in your own GitHub account and you'll see a note saying "forked from ShuangLiuTJU/GitHubProjectImpact" beneath your copy.
-    1.2 Now open your Git terminal and clone a local copy with the clone command "git clone https://github.com/ShuangLiuTJU/GitHubProjectImpact.git". Note that you need to be consisitent and use either HTTPs or SSH format, but not both. Failing to do so may cause you some permission deny problems, which you may find the following blog useful: https://segmentfault.com/q/1010000003061640
+    
+     1.1 Go to our project (https://github.com/ShuangLiuTJU/GitHubProjectImpact), click the Fork button on the right top corner. This will create a copy of the repository in your own GitHub account and you'll see a note saying "forked from ShuangLiuTJU/GitHubProjectImpact" beneath your copy.
+    
+     1.2 Now open your Git terminal and clone a local copy with the clone command "git clone https://github.com/ShuangLiuTJU/GitHubProjectImpact.git". Note that you need to be consisitent and use either HTTPs or SSH format, but not both. Failing to do so may cause you some permission deny problems, which you may find the following blog useful: https://segmentfault.com/q/1010000003061640
+   
     1.3 Now type command "cd  GitHubProjectImpact" to go in your local folder, set up a new remote that points to the original project so that you can grab any changes and bring them into your local copy, you can do this with command "git remote add upstream https://github.com/ShuangLiuTJU/GitHubProjectImpact.git" (Remember to keep consistent with the HTTPs or SSH format).
+   
     Now you have one local copy and two remotes of this project, i.e., origin master and upstream master. Origin master is the project in your own fork of the GitHub project, you can read or write to the origin master. Upstream master is the main project that your origin forked from, you can only read from this remote. 
     
 Step 2: Work normally and commit your work
