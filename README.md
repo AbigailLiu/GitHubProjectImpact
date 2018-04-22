@@ -26,6 +26,6 @@ Step 2: Work normally and commit your work
 
 Step 3: Create a Pull Request
     
-     3.1 git push -u origin hotfix/modifyreadme will create a branch in your GitHub project and link it with the remote one (with -u). Swap back to the browser and navigate to your fork of the project (in my case https://github.com/AbigailLiu/GitHubProjectImpact) and you'll find that your new branch is listed at the top with a "Compare & pull request" button. Click the button, follow the instructions and create a pull request.
+     3.1 git push -u origin hotfix/modifyreadme will create a branch in your GitHub project and link it with the remote one (with -u). Swap back to the browser and navigate to your fork of the project (in my case https://github.com/AbigailLiu/GitHubProjectImpact) and you'll find that your new branch is listed at the top with a "Compare & pull request" button. Click the button, follow the instructions and create a pull request. If you do not see the "Compare & pull request" button, you can create a pull request from the project page by clicking on the "new pull request" button and then follow the instructions to create a pull request. 
 
      Alternatively, you can follow the well written Guideline https://akrabat.com/the-beginners-guide-to-contributing-to-a-github-project/. There is also a good writing on commit message writing tips https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html, which we would appreciate contributors to follow. 
