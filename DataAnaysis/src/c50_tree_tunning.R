@@ -8,18 +8,18 @@ require("partykit")
 
 # load data
 load("data/20180420_mod_C50_8_ReadTree.RData")
+	# if model 5 is used, then uncomment the following
+	# mod_c50_5 <- readRDS("data/20180420_mod_c50_5.RDS")
 
 # plot without preprocess to better visualize the graph
 
 # model info: 
 	# model 8, prepare the final tree model. we can use all the trainingSet_bl for training
-	# to better visualize the graph, the model is trained (1) without preprocess, (2) on balanced set, 
+	# to better visualize the graph, the model is trained (1) without preprocess (2) with some mix sampling to better balance the set while keep the size small for as.party.C5.0 
 # comment out as model has already trained. 	
-#set.seed(9237)
-#trainingSet_bl <- upSample(x=trainingSet%>%select(-Class),y=trainingSet$Class)
 #set.seed(1)
-#mod_c50_8 <- C5.0(x = trainingSet_bl%>%select(-Class) %>% mutate(hasReadme=as.factor(hasReadme)) %>% select(-parent),
-#     trainingSet_bl$Class,
+#mod_c50_8 <- C5.0(x = trainingSet_smaller%>%select(-Class) %>% mutate(hasReadme=as.factor(hasReadme)) %>% select(-parent),
+#     y = trainingSet_smaller$Class,
 #     trials = 50,
 #     rules=FALSE,
 #     winnow = "FALSE")
