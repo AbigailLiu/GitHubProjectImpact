@@ -7,7 +7,7 @@ require("C50")
 require("partykit")
 
 # load data
-load("data/20180420_mod_c50_10_ReadTree.RData")
+load("data/20180425_mod_c50_10_ReadTree.RData")
 
 
 # plot without preprocess to better visualize the graph
@@ -27,7 +27,7 @@ load("data/20180420_mod_c50_10_ReadTree.RData")
 
 
 # for plotting the tree
-pdf(file="data/20180420_mod_c50_10_Tree.pdf", width=100/2.54, height=60/2.54)
+pdf(file="data/20180425_mod_c50_10_Tree.pdf", width=100/2.54, height=60/2.54)
 # plot the whole tree
 plot(mod_c50_10)
 myTree2 <- C50:::as.party.C5.0(mod_c50_10)
