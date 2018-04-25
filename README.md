@@ -6,7 +6,7 @@ To understand what are indicators of project impact, we conducted a google surve
 
 To Contribute, following these steps: 
 
-step 1: Set up a working copy on your computer
+Step 1: Set up a working copy on your computer
     
      1.1 Go to our project (https://github.com/ShuangLiuTJU/GitHubProjectImpact), click the Fork button on the right top corner. This will create a copy of the repository in your own GitHub account and you'll see a note saying "forked from ShuangLiuTJU/GitHubProjectImpact" beneath your copy.
     
